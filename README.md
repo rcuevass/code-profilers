@@ -1,1 +1,3 @@
-# code-profilers
+# Code profilers
+
+Repo to explore profiling tools.
