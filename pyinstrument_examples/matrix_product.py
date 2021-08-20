@@ -2,7 +2,7 @@ import numpy as np
 from pyinstrument import Profiler
 
 
-def generate_matrices(matrix_dim: int = 5000) -> tuple:
+def generate_matrices(matrix_dim: int = 10000) -> tuple:
     a = np.random.random((matrix_dim, matrix_dim))
     b = np.random.random((matrix_dim, matrix_dim))
     return a, b

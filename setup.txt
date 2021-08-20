@@ -1,3 +1,5 @@
 conda create --name code-profilers --clone base
 conda activate code-profilers
 pip install pyinstrument
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=code-profilers
