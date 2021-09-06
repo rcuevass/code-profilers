@@ -3,3 +3,6 @@ conda activate code-profilers
 pip install pyinstrument
 conda install -c anaconda ipykernel
 python -m ipykernel install --user --name=code-profilers
+pip install viztracer
+pip install line_profiler
+pip install -U memory_profiler
